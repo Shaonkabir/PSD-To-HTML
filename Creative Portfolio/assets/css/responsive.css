@@ -1,0 +1,354 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+	.slider-text h1 {
+	font-size: 70px;
+	font-family: 'MontserratBold';
+	letter-spacing: 13px;
+}
+	.slider-text .stylish-text {
+		font-size: 50px;
+	}
+	.single-portfolio-item {
+		height: 220px;
+	}
+
+	.single-portfolio-item:nth-child(3) {
+		height: 440px;
+	}
+	.clients-testimonial-item .owl-item .single-client-testimonial-item .clients-img {
+		margin-left: 0;
+	}
+	.clients-testimonial-inner {
+		padding-right: 30px;
+	}
+	.section-padding{padding:25px 0;}
+
+	.blog-reaction-icon {
+		margin-bottom: 25px;
+	}
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.homepage-slides {
+		height: 540px;
+	}
+	.slider-text .stylish-text {
+		font-size: 30px;
+	}
+	.slider-text h1 {
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+	.slider-bordered-btn {
+		font-size: 15px;
+	}
+
+	.mainmenu li a {
+		padding: 8px;
+	}
+	.logo img {
+		max-width: 200px;
+	}
+	.content-hover-item-tablecell h3 {
+		 letter-spacing: 0px;
+	}
+
+	.single-service-item {
+		padding: 40px;
+		padding-right: 0;
+	}
+	.single-service-item img {
+		top: 13%;
+	}
+	.accordian-section-img-box {
+		width: auto;
+	}
+	.service-testimonial-content {
+		padding-right: 65px;
+	}
+	.team-bg {
+		height: 250px;
+	}
+	.single-portfolio-item {
+		height: 220px;
+	}
+
+	.single-portfolio-item:nth-child(3) {
+		height: 440px;
+	}
+
+	.clients-testimonial-item .owl-item .single-client-testimonial-item .clients-img {
+		margin-left: 0;
+	}
+	.clients-testimonial-inner {
+		padding:40px;
+		padding-right: 0px;
+	}
+	.section-padding{padding:30px 0;}
+
+	.clients-meta {
+		font-size: 12px;
+	}
+	.clients-meta span {
+		font-size: 12px;
+	}
+	.absolute-box {
+		top: 28%;
+	}
+	.blog-content h3 {
+		font-size: 12px;
+	}
+	.footer-logo img {
+		max-width: 150px;
+	}
+
+	.footer-social-links {
+		margin: 0;
+	}
+	.copyright-text-area a {
+		letter-spacing: 0px;
+	}
+	.blog-box .date {
+		font-size: 6px;
+	}
+	.blog-box p {
+		font-size: 10px;
+	}
+	.img-box-7, .img-box-8 , .img-box-9 {display: none;}
+	.email-sub-form {
+		display: none;
+	}
+	.number {
+	font-size: 50px;
+	}
+	.single-project-item {
+	font-size: 13px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .section-padding{padding:15px  0}
+	.homepage-slides {
+		height: auto;
+	}
+	.slider-text .stylish-text {
+		font-size: 20px;
+	}
+	.slider-text h1 {
+		font-size: 30px;
+		letter-spacing: 10px;
+	}
+
+	.slider-bordered-btn {
+		font-size: 12px;
+		padding: 8px 20px;
+		letter-spacing: 0px;
+		margin-bottom: 30px;
+	}
+	.slider-bordered-btn:hover {
+	color: black;
+	letter-spacing: 0;
+	}
+	.mainmenu li a {
+		padding: 3px;
+	}
+	.logo img {
+		max-width: 120px;
+	}
+	.content-hover-item-tablecell h3 {
+		 letter-spacing: 0px;
+	}
+
+	.stylish-text {
+		font-size: 15px;
+	}
+	.section-title h3 {
+		font-size: 20px;
+		padding-bottom: 16px;
+		margin-bottom: 16px;
+	}
+
+	.single-content-box::after, .single-content-box::before{display: none;}
+	.single-content-box {
+		margin-bottom: 25px;
+	}
+	.single-service-item img {
+		left: 9px;
+		top: 16%;
+	}
+	.responsive-area {
+		min-height: 425px;
+	}
+
+	.responsive-img img {
+		max-width: 250px;
+		left: 50%;
+		width: 250px;
+		margin-left: -125px;
+	}
+	.service-testimonial-content {
+		padding: 0;
+	}
+	.testimonial-icon {
+	    margin-bottom: 23px;
+	}
+
+	.service-testimonial-content::after , .service-testimonial-content::before{display: none}
+	.service-meta {
+		padding: 0 47px;
+	}
+	.service-meta::before {
+		left: 0;
+		width: 40px;
+	}
+	.single-portfolio-item {
+		height: 150px;
+		width: 50%;
+	}
+
+	.single-portfolio-item:nth-child(3) {
+		height: 300px;
+	}
+	.portfolio-hover-content-tablecell h3 {
+		font-size: 9px;
+	}
+	.portfolio-hover-content-tablecell  {
+		font-size: 10px;
+	}
+
+	.clients-testimonial-inner p {
+		text-align: center;
+		padding: 30px;
+	}
+	.clients-testimonial-item .owl-item .single-client-testimonial-item .clients-img {
+		margin: 0;
+		margin-left: 34%;
+	}
+	.clients-meta {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.clients-meta::after {
+		left: 50%;
+		margin-left: -30px;
+	}
+	.clients-testimonial-inner {
+		padding: 0;
+	}
+
+	.section-title {
+		margin: 0;
+	}
+	.location-text h3 {
+		font-size: 19px;
+	}
+	.location-area {
+		padding: 50px 0;
+	}
+	.footer-content {
+		text-align: center;
+	}
+	.footer-logo img {
+		margin: 20px;
+	}
+	.footer-social-links {
+		width: 30px;
+		height: 30px;
+		background: black;
+		color: #fff;
+		text-align: center;
+		line-height: 30px;
+		font-size: 19px;
+		border-radius: 50%;
+		margin-right: 5px;
+	}
+	input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="cal"], input[type="submit"], button[type="submit"], textarea {
+		width: 100%;
+		border: 1px solid #a49e9e;
+		background: #fff;
+		padding: 15px;
+		margin-bottom: 11px;
+	}
+	input[type="submit"], button[type="submit"] {
+		width: auto;
+		background: black;
+		color: #fff;
+		padding: 12px 22px;
+		cursor: pointer;
+		font-size: 13px;
+		margin-top: 2px;
+		border-radius: 10px;
+	}
+	.footer-section h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.view-more-btn {
+		display: block;
+		color: #000;
+		text-align: center;
+	}
+	.copyright-text-area {
+		padding:  0;
+		border-top: none;
+		margin-top: 0px;
+	}
+	.team-bg {
+	width: 90%;
+	height: 250px;
+	background-position: center top;
+	}
+	.service-testimonial-content {
+	padding-top: 50px;
+	}
+	.number {
+	font-size: 40px;
+	}
+	.single-project-item {
+	font-size: 7px;
+	}
+	.project-section {
+	display: none;
+	}
+	.single-portfolio-item.portfolio-bg-7 {
+	width: 100%;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.img-box-9 {display: none;}
+.clients-testimonial-item .owl-item .single-client-testimonial-item .clients-img {margin-left: 38%;}
+.service-testimonial-content {padding: 40px;}
+.service-meta {padding: 0 90px;}
+.service-meta::before {
+	left: 12%;
+	width: 40px;
+}
+
+
+
+	.team-bg{
+		width:100%;
+		height: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
